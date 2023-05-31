@@ -612,7 +612,7 @@ if game.CoreGui:FindFirstChild("FinityUI") then
     game.CoreGui["FinityUI"]:Destroy()
 end
 local dir = "Anime_Adventures/"..game.Players.LocalPlayer.Name
-local Uilib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/finitylib"))()
+local Uilib = loadstring(game:HttpGet("https://github.com/gamerbooy1231/forkaa/raw/main/finitylib"))()
 local exec = tostring(identifyexecutor())
 --updatefix fixmap
 local Window = Uilib.new(true, "[UPD 13.0.0] Anime Adventures "..version.." - "..exec)
@@ -2138,9 +2138,9 @@ function autoload()
     pcall(function()
         local exec = tostring(identifyexecutor())
         if exec == "Synapse X" and Settings.AutoLoadScript then
-            syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures_v2__Beta.lua'))()")
+            syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/gamerbooy1231/forkaa/main/AnimeAdventures_v2__Beta.lua'))()")
         elseif exec ~= "Synapse X" and Settings.AutoLoadScript then
-            queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures_v2__Beta.lua'))()")
+            queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/gamerbooy1231/forkaa/main/AnimeAdventures_v2__Beta.lua'))()")
         end
     end)
 end
@@ -2148,7 +2148,7 @@ if Settings.AutoLoadScript then
     autoload()
 end
 function autoload2()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures_v2__Beta.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/gamerbooy1231/forkaa/main/AnimeAdventures_v2__Beta.lua'))()
 end
 if Settings.refarmc then
     autoload2() end
