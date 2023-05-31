@@ -247,13 +247,13 @@ function webhook()
     
         local data = {
             ["content"] = "",
-                ["username"] = "Anime Adventures | ArponAG V2",
+                ["username"] = "Anime Adventures | Walter V2",
                 ["avatar_url"] = "https://tr.rbxcdn.com/fbdb712cfd54ebcdf11fff6bed7d9616/150/150/Image/Png",
                 ["embeds"] = {
                     {
                         ["author"] = {
-                            ["name"] = "ArponAG V2 | Results ✔️",
-                            ["icon_url"] = "https://cdn.discordapp.com/emojis/997123585476927558.webp?size=96&quality=lossless"
+                            ["name"] = "Walter V2 | Results ✔️",
+                            ["icon_url"] = ""
                         },
                         ["thumbnail"] = {
                             ['url'] = thumbnails_avatar.data[1].imageUrl,
@@ -1205,12 +1205,10 @@ end
 ------------------ credits -------------------
 ----------------------------------------------
 local function credits()
-    Developers:Cheat("Label","📝 Scripted by: Arpon AG#6612 & Forever4D#0001 & HOLYSHz#3819 ")    
-    Developers:Cheat("Label","📝 Also thanks to Trapstar#7845, bytenode#9646 for the help!")    
     Developers:Cheat("Label","📐 UI By: detourious @ v3rmillion.net")    
     Developers:Cheat("Label","🔧 To toggle the script press \" P \"")   
     Developers:Cheat("Button","🔗 Discord Invite", function()
-        setclipboard("https://discord.gg/2ttfCfzxut")
+        setclipboard("https://discord.gg/7jnTMhUS")
     end)    
     UIUPDT:Cheat("Label","[+] idk \n[+]reeeeeeeeeee")    
 end
@@ -5381,7 +5379,7 @@ function escanorIR()
     if Settings.escanorIR == nil then
         Settings.escanorIR = false
         else
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/dontDelete-IR.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/gamerbooy1231/forkaa/main/escanorinfrange"))()
     end
 end
 
